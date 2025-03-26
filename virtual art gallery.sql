@@ -120,29 +120,29 @@ select * from Gallery
 
 INSERT INTO UserFavoriteArtwork (UserID, ArtworkID)
 VALUES 
-(110301, 1),  -- John Doe likes Mona Lisa
-(110301, 3),  -- John Doe also likes The Starry Night
-(110302, 2),  -- Jane Smith likes Guernica
-(110302, 5),  -- Jane Smith also likes Girl with a Pearl Earring
-(110303, 4),  -- Alex Miller likes The Persistence of Memory
-(110303, 7),  -- Alex Miller also likes The Scream
-(110304, 6),  -- Sarah Connor likes The Birth of Venus
-(110305, 8),  -- Michael Jordan likes The Creation of Adam
-(110306, 9),  -- Lisa Williams likes The Night Watch
-(110307, 10); -- David Bowie likes The Kiss
+(110301, 1),  
+(110301, 3), 
+(110302, 2),
+(110302, 5),  
+(110303, 4),  
+(110303, 7), 
+(110304, 6),  
+(110305, 8),  
+(110306, 9),  
+(110307, 10);
 
 select * from UserFavoriteArtwork
 
 INSERT INTO ArtworkGallery (ArtworkID, GalleryID)
 VALUES 
-(1, 10001),  -- Mona Lisa → The Louvre
-(2, 10002),  -- Guernica → Museo Reina Sofía
-(3, 10003),  -- The Starry Night → Van Gogh Museum
-(4, 10004),  -- The Persistence of Memory → Dalí Theatre-Museum
-(5, 10005),  -- Girl with a Pearl Earring → Mauritshuis
-(6, 10006),  -- The Birth of Venus → Uffizi Gallery
-(7, 10010),  -- The Scream → National Museum
-(8, 10007),  -- The Creation of Adam → The National Gallery
+(1, 10001), 
+(2, 10002), 
+(3, 10003),  
+(4, 10004),  
+(5, 10005),  
+(6, 10006),  
+(7, 10010),  
+(8, 10007),  
 (9, 10009),  -- The Night Watch → Rijksmuseum
 (10, 10008); -- The Kiss → Belvedere Museum
 
